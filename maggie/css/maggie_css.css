@@ -1,0 +1,273 @@
+/*<!aboutCSS>*/
+/*--------------------below is home page----*/
+body{
+    margin: 4vh 5vw  ;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+body h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: #AFDDF4;
+    font-size: 5em;
+    letter-spacing: 3px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.header_left{
+    color:#72C2F7;
+}
+.header_box h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30pt;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #72C2F7;
+}
+.header_box h2{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size:12pt;
+    margin: 0;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header_left{
+    float:left;
+    padding: 10px 0;
+}
+nav{
+    text-align: right;
+    width: 100%;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+nav li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-transform: uppercase;  
+    display: inline-block;
+    margin-left: 80px;
+    padding-top:61px;
+    position: relative;
+
+}
+nav a{
+    color:#AFDDF4;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    /*    color:#f06065;*/
+    transition: all ease-in-out 200ms;
+}
+nav .current{ 
+    color: #72C2F7;
+    font-weight: 600;
+}
+.big_cloud{
+    position: absolute;
+    top:150px;
+    left:50px;
+}
+.small_cloud{
+    position: absolute;
+    top:500px;
+    right:20px;   
+}
+.image{
+    margin-bottom: 6.25em;
+}
+footer{
+    border-top: solid 2px #AFDDF4 ;
+    margin-top:1em;
+}
+footer img{
+    margin-top: .5em;
+    display: block;
+}
+
+/*------------------------ below is about page----------------------*/
+
+
+.big_cloud_1{
+    position: absolute;
+    top:200px;
+    right:0;
+}
+.small_cloud_1{
+    position: absolute;
+    left:200px;
+
+}
+.about_grid_parent{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:2vw;
+    margin:2vh 22.2vw;
+}
+.about_grid_parent p{
+    font-family: 'Open Sans', sans-serif;
+    color: #72C2F7;
+    text-align: left; 
+    font-size: .9em;
+}
+.about_grid_parent h3{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.3em;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AFDDF4;
+}
+
+
+/*---------------below is detail comment css---------*/
+
+.detail_text {
+    margin: 0 28vw;
+    margin-bottom: 10vh;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color:#AFDDF4;
+
+}
+.detail_h1{
+    margin-bottom:0;    
+}
+.detail_image img{
+    margin-bottom:10vh;
+}
+.image_right_gap{
+    padding-right: 1%;
+}
+
+
+/*-------------below is album detail---------*/
+
+.big_cloud_album{
+    position: absolute;
+    top:22vh;
+    left: 10vw;
+}
+.small_cloud_album{
+    position: absolute;
+    top:18vh;
+    left: 10vw;    
+}
+
+/*-------------below is brush kid detail---------*/
+.big_cloud_brush{
+    position: absolute;
+    top:30vh;
+    left: 5vw;
+}
+.small_cloud_brush{
+    position: absolute;
+    top:18vh;
+    right: 10vw;    
+}
+
+
+/*-----------below is cereal detail-------*/
+
+.big_cloud_cereal{
+    position: absolute;
+    top:30vh;
+    right: 5vw;
+}
+.small_cloud_cereal{
+    position: absolute;
+    top:30vh;
+    left: 10vw;   
+}
+/*-----------below is fantasy detail-------*/
+
+.big_cloud_fantasy{
+    position: absolute;
+    top:20vh;
+    right: 5vw;
+}
+.small_cloud_fantasy{
+    position: absolute;
+    top:30vh;
+    left: 10vw;   
+}
+/*-----------below is food detail-------*/
+
+
+
+.big_cloud_food{
+    position: absolute;
+    top:30vh;
+    left: 3vw;
+}
+.small_cloud_food{
+    position: absolute;
+    top:20vh;
+    left: 20vw;
+}
+.food_process img{
+    margin-bottom: 0;
+}
+.food_process{
+    margin-bottom: 10vh;
+}
+.food_process h2{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size:1.3e,;
+    color: #AFDDF4;
+    margin-top: 4vh;
+    text-transform: uppercase;
+    margin-bottom: 1vh;
+    text-align: left;
+    margin-left: 28vw;
+}
+.food_process p{
+    margin: 0 28vw;
+    margin-bottom: 2vh;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color:#AFDDF4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
