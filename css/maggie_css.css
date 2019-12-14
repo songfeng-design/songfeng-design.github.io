@@ -88,11 +88,11 @@ nav .current{
     right:20px;   
 }
 .image{
-    margin-bottom: 6.25em;
+    margin-bottom: 13em;
 }
 footer{
     border-top: solid 2px #AFDDF4 ;
-    margin-top:1em;
+    margin-top:10em;
 }
 footer img{
     margin-top: .5em;
@@ -244,6 +244,29 @@ footer img{
     font-family: 'Open Sans', sans-serif;
     color:#AFDDF4;
 }
+
+/*
+
+--------------------- below is lineart--------------
+*/
+
+
+.big_cloud_line{
+    position: absolute;
+    top:20vh;
+    right: 3vw;
+}
+.small_cloud_line{
+    position: absolute;
+    top:30vh;
+    left: 3vw;
+}
+
+
+
+/*--------------------- below is shop--------------*/
+
+/*See another css*/
 
 
 

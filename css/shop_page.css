@@ -1,0 +1,124 @@
+body{
+    margin: 4vh 5vw  ;
+}
+body h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: #AFDDF4;
+    font-size: 5em;
+    letter-spacing: 3px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+.header_left{
+    color:#72C2F7;
+}
+.header_box h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30pt;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #72C2F7;
+}
+.header_box h2{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size:12pt;
+    margin: 0;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header_left{
+    float:left;
+    padding: 10px 0;
+}
+nav{
+    text-align: right;
+    width: 100%;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+nav li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-transform: uppercase;  
+    display: inline-block;
+    margin-left: 80px;
+    padding-top:61px;
+    position: relative;
+
+}
+nav a{
+    color:#AFDDF4;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    /*    color:#f06065;*/
+    transition: all ease-in-out 200ms;
+}
+nav .current{ 
+    color: #72C2F7;
+    font-weight: 600;
+}
+footer{
+    border-top: solid 2px #AFDDF4 ;
+    margin-top:1em;
+}
+footer img{
+    margin-top: .5em;
+    display: block;
+}
+
+.grid_parent{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    margin: auto;
+    grid-column-gap:1vw; 
+    margin-bottom: 10em;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+/*    letter-spacing: 0.5px;*/
+    font-weight: 600;
+    font-size:1.2em;
+    color:#72C2F7; 
+    margin: 1vh 0;
+}
+
+.grid_parent p{font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    color:#72C2F7; 
+    margin: 0;
+}
+
+.shop_1, .shop_2, .shop_3, .shop_4, .shop_5, .shop_6{
+    margin-bottom: 8vh;
+}
+
+.big_cloud_shop{
+    position: absolute;
+    top:20vh;
+    right: 3vw;
+}
+.small_cloud_shop{
+    position: absolute;
+    top:30vh;
+    left: 5vw;
+}
