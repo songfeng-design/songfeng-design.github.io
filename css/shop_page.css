@@ -1,5 +1,9 @@
 body{
-    margin: 4vh 5vw  ;
+    margin: 4vh 5vw;
+    margin: 4vh 5vw;
+    display: block;
+    text-align: center;
+    position: relative;
 }
 body h1{
     font-family: 'Luckiest Guy', cursive;
