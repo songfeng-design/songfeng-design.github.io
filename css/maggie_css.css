@@ -87,9 +87,49 @@ nav .current{
     top:500px;
     right:20px;   
 }
-.image{
-    margin-bottom: 13em;
+
+.wrapper{
+    font-family: 'Luckiest Guy', cursive;
+    color: #AFDDF4;
+    font-size: 5em;
+    letter-spacing: 3px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 2em;
 }
+.wrapper .img{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;    
+}
+.content{
+    position: absolute;
+    top: 45%;
+        left:50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    font-size:1em;
+    color: #fff;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.content a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff; 
+     text-shadow: 8px 1px #000;
+}
+.overlay{
+    opacity: 0;
+}
+
+.wrapper:hover img{
+    opacity: .8
+}
+.wrapper:hover .overlay{
+    opacity: 1
+}
+
 footer{
     border-top: solid 2px #AFDDF4 ;
     margin-top:10em;
